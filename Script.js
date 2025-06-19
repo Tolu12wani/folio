@@ -102,7 +102,7 @@ function scrollToSection(sectionId) {
 function downloadResume() {
     // Create a temporary link element
     const link = document.createElement('a');
-    link.href = './assets/Adegboyega Toluwani CVV.pdf'; // Replace with actual resume file path
+    link.href = './Adegboyega Toluwani CVV.pdf'; // Replace with actual resume file path
     link.download = 'Adegboyega_Toluwani_CVV.pdf';
     link.target = '_blank';
     
