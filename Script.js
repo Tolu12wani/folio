@@ -102,7 +102,7 @@ function scrollToSection(sectionId) {
 function downloadResume() {
     // Create a temporary link element
     const link = document.createElement('a');
-    link.href = './Adegboyega Toluwani CVV.pdf'; // Replace with actual resume file path
+    link.href = 'Adegboyega Toluwani CVV.pdf'; // Replace with actual resume file path
     link.download = 'Adegboyega_Toluwani_CVV.pdf';
     link.target = '_blank';
     
@@ -114,7 +114,6 @@ function downloadResume() {
      link.click();
      document.body.removeChild(link);
 }
-
 
 // Typing animation for hero text
 function typeWriter(element, text, speed = 100) {
